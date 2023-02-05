@@ -172,12 +172,9 @@ class Cell {
         }
     }
 }
-// let newMaze = new Maze(500, 10 , 10);
-// newMaze.setup();
-// newMaze.draw();
+
 let form = document.querySelector("#settings");
-// let size = document.querySelector("#size");
-// let rowsCols = document.querySelector("#number");
+
 let complete = document.querySelector(".complete");
 let replay = document.querySelector(".replay");
 let close = document.querySelector(".close");
