@@ -4,7 +4,9 @@ let generationComplete;
 
 let current;
 let goal;
-
+function refreshPage(){
+    window.location.reload();
+}
 
 class Maze{
     constructor(size ,rows, columns){

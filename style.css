@@ -3,16 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    color: #ffffff;
+ 
 
 }
 
 body {
     background-image: linear-gradient(to bottom right, green, blue);
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100vw;
     height: 100vh; 
     
@@ -41,15 +41,19 @@ body {
     z-index: 2;
   }
   
-  input {
+  /* input { 
     margin-bottom: 1rem;
     background-color: #161616;
     text-align: center;
     border: none;
     border-bottom: 1px solid #ffffff;
     margin-top: 0.2rem;
+  /* } */
+  .restart{
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
   }
-  
   #submit {
     background-color: #161616;
     border: 1px solid #ffffff;
@@ -115,3 +119,5 @@ body {
     background-color: #e7e7e7;
     color: black;
   }
+ 
+  

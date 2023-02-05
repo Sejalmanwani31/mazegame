@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1 class="title">Maze Generator</h1>
+    <h1 class="restart"> <input type="submit" value="Reset" onclick="refreshPage()"></h1>
 
     <div class="complete">
       <h3>Maze Completed.</h3>
@@ -18,7 +19,7 @@
     
       <form id="settings" action="">
         <div class="levels">
-          <button id="level_1">Level 1</button>
+        <button id="level_1">Level 1</button>
        
         <button id="level_2">Level 2</button>
         
@@ -28,6 +29,7 @@
         
       </form>
     <canvas class="maze"></canvas>
+    
     <script src="script.js"></script>
     
 </body>
